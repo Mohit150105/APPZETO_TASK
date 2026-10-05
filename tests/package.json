@@ -1,0 +1,24 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "Automated Unit, Integration, and Edge-Case Tests for Multi-Tenant SaaS",
+  "private": true,
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb-memory-server": "^9.2.0",
+    "mongoose": "^8.3.2",
+    "socket.io-client": "^4.7.5",
+    "supertest": "^6.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@types/supertest": "^6.0.2",
+    "typescript": "^5.4.5",
+    "vitest": "^1.5.0"
+  }
+}

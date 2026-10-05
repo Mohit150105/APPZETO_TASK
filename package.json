@@ -1,0 +1,30 @@
+{
+  "name": "multi-tenant-saas-project-manager",
+  "version": "1.0.0",
+  "description": "Multi-Tenant Project Management & Collaboration SaaS System",
+  "private": true,
+  "scripts": {
+    "backend:dev": "npm --prefix backend run dev",
+    "backend:build": "npm --prefix backend run build",
+    "backend:start": "npm --prefix backend start",
+    "frontend:dev": "npm --prefix frontend run dev",
+    "frontend:build": "npm --prefix frontend run build",
+    "test": "npm --prefix tests run test",
+    "seed": "npm --prefix backend run seed",
+    "docker:up": "docker compose up --build",
+    "docker:down": "docker compose down"
+  },
+  "keywords": [
+    "multi-tenant",
+    "saas",
+    "project-management",
+    "kanban",
+    "socketio",
+    "mongodb",
+    "express",
+    "react",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC"
+}
